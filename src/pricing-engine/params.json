@@ -1,0 +1,11 @@
+{
+    "VanillaOptionsPricer": {
+        "h": 1e-3,
+        "models": {
+            "gbsm": "vanilla european pricing model.",
+            "barone_adhesi_whaley": "vanilla american pricing model."
+        },
+        "required_inputs": ["is_call", "S", "K", "T", "r", "sigma"],
+        "optional_inputs": ["b"]
+    }
+}
